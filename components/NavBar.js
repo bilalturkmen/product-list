@@ -14,15 +14,20 @@ const NavBar = () => {
           />
 
           <span className="ml-3 text-2xl">digital-ist</span>
-        </a>{" "}
+        </a>
         <span className="hidden md:block ml-6 italic">
-          {" "}
           {` </ digital istanbul />`}
         </span>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">Home</a>
-          <a className="mr-5 hover:text-gray-900">About</a>
-          <a className="mr-5 hover:text-gray-900">User List</a>
+          <Link href="/">
+            <a className="mr-5 hover:text-gray-900">Home</a>
+          </Link>
+          <Link href="/about">
+            <a className="mr-5 hover:text-gray-900">About</a>
+          </Link>
+          <Link href="/users">
+            <a className="mr-5 hover:text-gray-900">User List</a>
+          </Link>
         </nav>
       </div>
     </header>
