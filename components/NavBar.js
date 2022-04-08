@@ -3,18 +3,20 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <header className="text-gray-600 body-font border-b mb-8 bg-white  ">
+    <header className="text-gray-600 body-font border-b  bg-white  ">
       <div className="container mx-auto   flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex items-center font-bold   text-gray-900 mb-4 md:mb-0">
-          <Image
-            src="/digital_ist.svg"
-            alt="digital-ist"
-            width={42}
-            height={42}
-          />
+        <Link href={"/"}>
+          <a className="flex items-center font-bold   text-gray-900 mb-4 md:mb-0">
+            <Image
+              src="/digital_ist.svg"
+              alt="digital-ist"
+              width={42}
+              height={42}
+            />
 
-          <span className="ml-3 text-2xl">digital-ist</span>
-        </a>
+            <span className="ml-3 text-2xl">digital-ist</span>
+          </a>
+        </Link>
         <span className="hidden md:block ml-6 italic">
           {` </ digital istanbul />`}
         </span>
@@ -22,11 +24,9 @@ const NavBar = () => {
           <Link href="/">
             <a className="mr-5 hover:text-gray-900">Home</a>
           </Link>
-          <Link href="/about">
-            <a className="mr-5 hover:text-gray-900">About</a>
-          </Link>
-          <Link href="/users">
-            <a className="mr-5 hover:text-gray-900">User List</a>
+
+          <Link href="/our-team">
+            <a className="mr-5 hover:text-gray-900">Our Team</a>
           </Link>
         </nav>
       </div>
