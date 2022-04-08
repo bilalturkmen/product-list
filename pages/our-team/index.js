@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Pagination from "../../components/Pagination";
 import { paginate } from "../../utils/paginate";
 import Link from "next/link";
