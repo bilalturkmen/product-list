@@ -27,24 +27,29 @@ export default function UserListPage({ users }) {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-6 sm:gap-y-8 lg:gap-y-12">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-6 sm:gap-y-8 lg:gap-y-12 h-96">
           {paginatePosts.map((user) => (
             <div
               key={user.id}
               className="flex flex-col sm:flex-row items-center gap-2 md:gap-4"
             >
               <div className="w-24 md:w-24 h-24 md:h-24 bg-gray-100 rounded-full overflow-hidden shadow-lg">
-                <Image src={user.logo} alt="user" width={120} height={120} />
+                <Image
+                  src={user.avatar_url}
+                  alt="user"
+                  width={120}
+                  height={120}
+                />
               </div>
 
               <div>
                 <div className="text-indigo-500 md:text-lg font-bold text-center sm:text-left">
-                  <Link href={`/our-team/${user.id}`}>
-                    <a>{`${user.name}`}</a>
+                  <Link href={`/our-team/${user.login}`}>
+                    <a>{`${user.login}`}</a>
                   </Link>
                 </div>
                 <p className="text-gray-500 text-sm md:text-base text-center sm:text-left">
-                  {user.job_title}
+                  {user.type}
                 </p>
               </div>
             </div>
@@ -62,8 +67,9 @@ export default function UserListPage({ users }) {
 }
 
 export const getStaticProps = async (context) => {
-  const res = await fetch(`http://localhost:3000/users`);
-  const data = await res.json();
+  const url = "https://api.github.com/users";
+  const response = await fetch(url);
+  const data = await response.json();
 
   return {
     props: { users: data },

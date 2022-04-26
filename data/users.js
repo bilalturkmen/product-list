@@ -1,7 +1,7 @@
-const DUMMY_USERS = [
+const users = [
   {
     id: 1,
-    logo: "https://logo.clearbit.com/altervista.org",
+    logo: "https://bilalturkmen.com/files/img/altervista.webp",
     name: "Shelton Ducker",
     email: "carckoll8@ebay.co.uk",
     company: "Verizon",
@@ -9,7 +9,7 @@ const DUMMY_USERS = [
   },
   {
     id: 2,
-    logo: "https://logo.clearbit.com/canalblog.com",
+    logo: "https://bilalturkmen.com/files/img/canalblog.webp",
     name: "Genia Beyn",
     email: "jpeter5j@gravatar.com",
     company: "DoorDash",
@@ -17,7 +17,7 @@ const DUMMY_USERS = [
   },
   {
     id: 3,
-    logo: "https://logo.clearbit.com/oracle.com",
+    logo: "https://bilalturkmen.com/files/img/oracle.webp",
     name: "Cammie McVittie",
     email: "ghatherell4j@linkedin.com",
     company: "Berkshire Hathaway",
@@ -25,7 +25,7 @@ const DUMMY_USERS = [
   },
   {
     id: 4,
-    logo: "https://logo.clearbit.com/sohu.com",
+    logo: "https://bilalturkmen.com/files/img/sohu.webp",
     name: "Lucille Adamik",
     email: "vmenier4n@parallels.com",
     company: "Walt Disney",
@@ -33,7 +33,7 @@ const DUMMY_USERS = [
   },
   {
     id: 5,
-    logo: "https://logo.clearbit.com/360.cn",
+    logo: "https://bilalturkmen.com/files/img/360.webp",
     name: "Michael MacKegg",
     email: "fkildea4r@ucsd.edu",
     company: "Gamestop",
@@ -41,7 +41,7 @@ const DUMMY_USERS = [
   },
   {
     id: 6,
-    logo: "https://logo.clearbit.com/list-manage.com",
+    logo: "https://bilalturkmen.com/files/img/list-manage.webp",
     name: "Eugene Meddows",
     email: "dbergeon45@diigo.com",
     company: "Target",
@@ -49,7 +49,7 @@ const DUMMY_USERS = [
   },
   {
     id: 7,
-    logo: "https://logo.clearbit.com/flavors.me",
+    logo: "https://bilalturkmen.com/files/img/flavors.webp",
     name: "Richy Cafe",
     email: "gguerre3f@flickr.com",
     company: "Boeing",
@@ -58,7 +58,7 @@ const DUMMY_USERS = [
 
   {
     id: 9,
-    logo: "https://logo.clearbit.com/msu.edu",
+    logo: "https://bilalturkmen.com/files/img/msu.webp",
     name: "Franzen Dossett",
     email: "mantliff5x@gnu.org",
     company: "Square",
@@ -67,7 +67,7 @@ const DUMMY_USERS = [
 
   {
     id: 11,
-    logo: "https://logo.clearbit.com/java.com",
+    logo: "https://bilalturkmen.com/files/img/java.webp",
     name: "Hershel Docherty",
     email: "pravillas4l@yale.edu",
     company: "Kroger",
@@ -75,7 +75,7 @@ const DUMMY_USERS = [
   },
   {
     id: 12,
-    logo: "https://logo.clearbit.com/wikia.com",
+    logo: "https://bilalturkmen.com/files/img/wikia.webp",
     name: "Desdemona Veare",
     email: "ralvy1@discovery.com",
     company: "Morgan Stanley",
@@ -83,7 +83,7 @@ const DUMMY_USERS = [
   },
   {
     id: 13,
-    logo: "https://logo.clearbit.com/chron.com",
+    logo: "https://bilalturkmen.com/files/img/chron.webp",
     name: "Ulrika Ravillas",
     email: "prawlingson4w@phoca.cz",
     company: "MetLife",
@@ -91,7 +91,7 @@ const DUMMY_USERS = [
   },
   {
     id: 14,
-    logo: "https://logo.clearbit.com/twitter.com",
+    logo: "https://bilalturkmen.com/files/img/twitter.webp",
     name: "Anatollo Glen",
     email: "hwilber2t@blinklist.com",
     company: "Gamestop",
@@ -100,7 +100,7 @@ const DUMMY_USERS = [
 
   {
     id: 16,
-    logo: "https://logo.clearbit.com/hhs.gov",
+    logo: "https://bilalturkmen.com/files/img/hhs.webp",
     name: "Konstanze Iverson",
     email: "vhandrik5z@adobe.com",
     company: "Kroger",
@@ -108,7 +108,7 @@ const DUMMY_USERS = [
   },
   {
     id: 17,
-    logo: "https://logo.clearbit.com/myspace.com",
+    logo: "https://bilalturkmen.com/files/img/myspace.webp",
     name: "Von Boman",
     email: "gwerner4h@so-net.ne.jp",
     company: "Segment",
@@ -116,7 +116,7 @@ const DUMMY_USERS = [
   },
   {
     id: 18,
-    logo: "https://logo.clearbit.com/vk.com",
+    logo: "https://bilalturkmen.com/files/img/vk.webp",
     name: "Hershel Helgass",
     email: "groddie12@icio.us",
     company: "Twitter",
@@ -124,7 +124,7 @@ const DUMMY_USERS = [
   },
   {
     id: 19,
-    logo: "https://logo.clearbit.com/bbc.co.uk",
+    logo: "https://bilalturkmen.com/files/img/bbc.webp",
     name: "Garrot Bonick",
     email: "sference67@telegraph.co.uk",
     company: "Wells Fargo",
@@ -132,7 +132,7 @@ const DUMMY_USERS = [
   },
   {
     id: 20,
-    logo: "https://logo.clearbit.com/chron.com",
+    logo: "https://bilalturkmen.com/files/img/chron.webp",
     name: "Sullivan Lemerie",
     email: "hscherme5a@aol.com",
     company: "Berkshire Hathaway",
@@ -140,7 +140,7 @@ const DUMMY_USERS = [
   },
   {
     id: 21,
-    logo: "https://logo.clearbit.com/dropbox.com",
+    logo: "https://bilalturkmen.com/files/img/dropbox.webp",
     name: "Claretta Fishenden",
     email: "vwestwick6h@sina.com.cn",
     company: "Palentir Technologies",
@@ -148,7 +148,7 @@ const DUMMY_USERS = [
   },
   {
     id: 22,
-    logo: "https://logo.clearbit.com/vkontakte.ru",
+    logo: "https://bilalturkmen.com/files/img/vkontakte.webp",
     name: "Renata Wathall",
     email: "dbrockman4k@quantcast.com",
     company: "UnitedHealth Group",
@@ -156,7 +156,7 @@ const DUMMY_USERS = [
   },
   {
     id: 23,
-    logo: "https://logo.clearbit.com/scientificamerican.com",
+    logo: "https://bilalturkmen.com/files/img/scientificamerican.webp",
     name: "Katerine Hefforde",
     email: "uqueree69@answers.com",
     company: "UnitedHealth Group",
@@ -164,7 +164,7 @@ const DUMMY_USERS = [
   },
   {
     id: 26,
-    logo: "https://logo.clearbit.com/people.com.cn",
+    logo: "https://bilalturkmen.com/files/img/people.webp",
     name: "Annadiana Hessel",
     email: "chelgass33@hhs.gov",
     company: "Superhuman",
@@ -173,7 +173,7 @@ const DUMMY_USERS = [
 
   {
     id: 28,
-    logo: "https://logo.clearbit.com/boston.com",
+    logo: "https://bilalturkmen.com/files/img/boston.webp",
     name: "Stefania Lauks",
     email: "kesposi1c@scientificamerican.com",
     company: "Gamestop",
@@ -181,7 +181,7 @@ const DUMMY_USERS = [
   },
   {
     id: 29,
-    logo: "https://logo.clearbit.com/ning.com",
+    logo: "https://bilalturkmen.com/files/img/ning.webp",
     name: "Doretta Oliver",
     email: "iwathall41@reverbnation.com",
     company: "JP Morgan Chase",
@@ -190,7 +190,7 @@ const DUMMY_USERS = [
 
   {
     id: 31,
-    logo: "https://logo.clearbit.com/ameblo.jp",
+    logo: "https://bilalturkmen.com/files/img/ameblo.webp",
     name: "Garrot Olenchenko",
     email: "nvlasyuk5d@berkeley.edu",
     company: "Oracle",
@@ -198,7 +198,7 @@ const DUMMY_USERS = [
   },
   {
     id: 32,
-    logo: "https://logo.clearbit.com/hostgator.com",
+    logo: "https://bilalturkmen.com/files/img/hostgator.webp",
     name: "Cristionna Berryann",
     email: "hmasarrat3z@csmonitor.com",
     company: "Walt Disney",
@@ -206,7 +206,7 @@ const DUMMY_USERS = [
   },
   {
     id: 33,
-    logo: "https://logo.clearbit.com/cbsnews.com",
+    logo: "https://bilalturkmen.com/files/img/cbsnews.webp",
     name: "Eugene Craiker",
     email: "qkopman2y@princeton.edu",
     company: "Front",
@@ -214,7 +214,7 @@ const DUMMY_USERS = [
   },
   {
     id: 34,
-    logo: "https://logo.clearbit.com/last.fm",
+    logo: "https://bilalturkmen.com/files/img/last.webp",
     name: "Jennilee Bartel",
     email: "hfeore1f@naver.com",
     company: "AT&T",
@@ -222,7 +222,7 @@ const DUMMY_USERS = [
   },
   {
     id: 35,
-    logo: "https://logo.clearbit.com/prweb.com",
+    logo: "https://bilalturkmen.com/files/img/prweb.webp",
     name: "Grazia Kenafaque",
     email: "afissenden1j@weibo.com",
     company: "Berkshire Hathaway",
@@ -231,7 +231,7 @@ const DUMMY_USERS = [
 
   {
     id: 37,
-    logo: "https://logo.clearbit.com/friendfeed.com",
+    logo: "https://bilalturkmen.com/files/img/friendfeed.webp",
     name: "Anthe Bonass",
     email: "lboddamc@friendfeed.com",
     company: "Target",
@@ -239,7 +239,7 @@ const DUMMY_USERS = [
   },
   {
     id: 39,
-    logo: "https://logo.clearbit.com/xinhuanet.com",
+    logo: "https://bilalturkmen.com/files/img/xinhuanet.webp",
     name: "Mickie Feldheim",
     email: "jpeter5j@gravatar.com",
     company: "Alphabet",
@@ -247,7 +247,7 @@ const DUMMY_USERS = [
   },
   {
     id: 40,
-    logo: "https://logo.clearbit.com/rambler.ru",
+    logo: "https://bilalturkmen.com/files/img/rambler.webp",
     name: "Piper Upward",
     email: "rhaddow52@pen.io",
     company: "Bumble",
@@ -255,7 +255,7 @@ const DUMMY_USERS = [
   },
   {
     id: 41,
-    logo: "https://logo.clearbit.com/yale.edu",
+    logo: "https://bilalturkmen.com/files/img/yale.webp",
     name: "Allyn Banger",
     email: "peich4p@github.com",
     company: "Anthem",
@@ -263,7 +263,7 @@ const DUMMY_USERS = [
   },
   {
     id: 42,
-    logo: "https://logo.clearbit.com/nsw.gov.au",
+    logo: "https://bilalturkmen.com/files/img/nsw.webp",
     name: "Franzen Banger",
     email: "qkopman2y@princeton.edu",
     company: "Home Depot",
@@ -271,7 +271,7 @@ const DUMMY_USERS = [
   },
   {
     id: 43,
-    logo: "https://logo.clearbit.com/smh.com.au",
+    logo: "https://bilalturkmen.com/files/img/smh.webp",
     name: "Ashil Fishenden",
     email: "dbergeon45@diigo.com",
     company: "Postmates",
@@ -279,7 +279,7 @@ const DUMMY_USERS = [
   },
   {
     id: 44,
-    logo: "https://logo.clearbit.com/360.cn",
+    logo: "https://bilalturkmen.com/files/img/360.webp",
     name: "Fabien Hammerson",
     email: "hmanketell1n@cbslocal.com",
     company: "Front",
@@ -287,7 +287,7 @@ const DUMMY_USERS = [
   },
   {
     id: 45,
-    logo: "https://logo.clearbit.com/msu.edu",
+    logo: "https://bilalturkmen.com/files/img/msu.webp",
     name: "Aigneis Ducker",
     email: "amoakesk@example.com",
     company: "General Electric",
@@ -295,7 +295,7 @@ const DUMMY_USERS = [
   },
   {
     id: 46,
-    logo: "https://logo.clearbit.com/nymag.com",
+    logo: "https://bilalturkmen.com/files/img/nymag.webp",
     name: "Ranique MacDowal",
     email: "vmenier4n@parallels.com",
     company: "GitHub",
@@ -303,7 +303,7 @@ const DUMMY_USERS = [
   },
   {
     id: 47,
-    logo: "https://logo.clearbit.com/businessweek.com",
+    logo: "https://bilalturkmen.com/files/img/businessweek.webp",
     name: "Stefania Boman",
     email: "apyne3o@sourceforge.net",
     company: "Walt Disney",
@@ -311,7 +311,7 @@ const DUMMY_USERS = [
   },
   {
     id: 48,
-    logo: "https://logo.clearbit.com/pinterest.com",
+    logo: "https://bilalturkmen.com/files/img/pinterest.webp",
     name: "Franzen Ovens",
     email: "sblackmoor47@msu.edu",
     company: "Postmates",
@@ -319,7 +319,7 @@ const DUMMY_USERS = [
   },
   {
     id: 49,
-    logo: "https://logo.clearbit.com/geocities.jp",
+    logo: "https://bilalturkmen.com/files/img/geocities.webp",
     name: "Erhard Texton",
     email: "nbransomh@chicagotribune.com",
     company: "Valero Energy",
@@ -327,7 +327,7 @@ const DUMMY_USERS = [
   },
   {
     id: 50,
-    logo: "https://logo.clearbit.com/narod.ru",
+    logo: "https://bilalturkmen.com/files/img/narod.webp",
     name: "Benedetta Scherme",
     email: "lcutler1e@friendfeed.com",
     company: "Nationwide",
@@ -335,10 +335,4 @@ const DUMMY_USERS = [
   },
 ];
 
-export function getAllUsers() {
-  return DUMMY_USERS;
-}
-
-export function getEventById(id) {
-  return DUMMY_USERS;
-}
+module.exports = users;
