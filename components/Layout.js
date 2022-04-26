@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 
 export default function Layout({ children }) {
   return (
-    <div className="bg-slate-100 h-screen">
+    <div>
       <NavBar></NavBar>
       <main className=""> {children} </main>
     </div>

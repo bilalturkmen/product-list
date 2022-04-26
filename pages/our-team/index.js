@@ -23,11 +23,11 @@ export default function UserListPage({ users }) {
           </h2>
 
           <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-            This is an example users data from api.github.com/users.
+            This is an example users data from jsonplaceholder/users.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-6 sm:gap-y-8 lg:gap-y-12 h-96">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-x-4 lg:gap-x-8 gap-y-6 sm:gap-y-8 lg:gap-y-12">
           {paginatePosts.map((user) => (
             <div
               key={user.id}
@@ -35,21 +35,22 @@ export default function UserListPage({ users }) {
             >
               <div className="w-24 md:w-24 h-24 md:h-24 bg-gray-100 rounded-full overflow-hidden shadow-lg">
                 <Image
-                  src={user.avatar_url}
-                  alt="user"
+                  alt="team"
+                  className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                  src="http://placehold.jp/120x120.png"
                   width={120}
-                  height={120}
+                  height={1200}
                 />
               </div>
 
               <div>
                 <div className="text-indigo-500 md:text-lg font-bold text-center sm:text-left">
-                  <Link href={`/our-team/${user.login}`}>
-                    <a>{`${user.login}`}</a>
+                  <Link href={`/our-team/${user.id}`}>
+                    <a>{`${user.name}`}</a>
                   </Link>
                 </div>
                 <p className="text-gray-500 text-sm md:text-base text-center sm:text-left">
-                  {user.type}
+                  {user.company.name}
                 </p>
               </div>
             </div>
@@ -67,7 +68,7 @@ export default function UserListPage({ users }) {
 }
 
 export const getStaticProps = async (context) => {
-  const url = "https://api.github.com/users";
+  const url = "https://jsonplaceholder.typicode.com/users";
   const response = await fetch(url);
   const data = await response.json();
 
