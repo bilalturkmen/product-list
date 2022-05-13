@@ -1,5 +1,5 @@
 const meta = {
-  name: "Digital-ist",
+  name: "digital-ist",
   description: "List of our product",
   shareImage: "/p-list.png",
   baseUri: "https://product-list-seven.vercel.app/", // optional
