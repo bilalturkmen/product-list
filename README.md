@@ -1,1 +1,3 @@
-This a test users list created with next js.
+This is a demo user list, built with Next js. Used Rest Api for fetching data and Tailwind CSS for page design.
+
+Demo - https://users-list-rho.vercel.app/ 
