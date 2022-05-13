@@ -19,11 +19,12 @@ export default function UserListPage({ users }) {
       <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
         <div className="mb-10 md:mb-16">
           <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">
-            Meet our Team
+            Meet our Products
           </h2>
 
           <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
-            This is an example users data from jsonplaceholder/users.
+            This is an example products data from
+            https://dummyjson.com/products.
           </p>
         </div>
 
@@ -34,23 +35,27 @@ export default function UserListPage({ users }) {
               className="flex flex-col sm:flex-row items-center gap-2 md:gap-4"
             >
               <div className="w-24 md:w-24 h-24 md:h-24 bg-gray-100 rounded-full overflow-hidden shadow-lg">
-                <Image
-                  alt="team"
-                  className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
-                  src="http://placehold.jp/120x120.png"
-                  width={120}
-                  height={1200}
-                />
+                <Link href={`/products/${user.id}`}>
+                  <a>
+                    <Image
+                      alt="product"
+                      className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                      src={user.thumbnail}
+                      width={120}
+                      height={120}
+                    />
+                  </a>
+                </Link>
               </div>
 
               <div>
                 <div className="text-indigo-500 md:text-lg font-bold text-center sm:text-left">
-                  <Link href={`/our-team/${user.id}`}>
-                    <a>{`${user.name}`}</a>
+                  <Link href={`/products/${user.id}`}>
+                    <a>{`${user.title}`}</a>
                   </Link>
                 </div>
                 <p className="text-gray-500 text-sm md:text-base text-center sm:text-left">
-                  {user.company.name}
+                  {user.brand}
                 </p>
               </div>
             </div>
@@ -68,11 +73,11 @@ export default function UserListPage({ users }) {
 }
 
 export const getStaticProps = async (context) => {
-  const url = "https://jsonplaceholder.typicode.com/users";
+  const url = "https://dummyjson.com/products";
   const response = await fetch(url);
   const data = await response.json();
 
   return {
-    props: { users: data },
+    props: { users: data.products },
   };
 };
