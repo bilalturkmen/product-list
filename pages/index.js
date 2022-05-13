@@ -1,12 +1,12 @@
 import SocialMedia from "../components/SocialMedia";
-import Head from "../components/Head";
+import HeadComponent from "../components/Head";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home({ users }) {
   return (
     <>
-      <Head canonicalUrl={`https://digital-ist.com`} />
+      <HeadComponent canonicalUrl={``} />
       <section className="container mx-auto px-2 md:px-4  ">
         <div className="flex flex-wrap justify-between mb-8 md:mb-16">
           <div className="w-full lg:w-1/3 flex flex-col justify-center lg:pt-12 lg:pb-24  sm:mb-12 lg:mb-0 px-5 md:px-0 pt-10 sm:pt-24">
