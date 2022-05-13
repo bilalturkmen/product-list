@@ -1,8 +1,8 @@
 const meta = {
-  name: "Digitalist",
-  description: "List of our marketing team",
+  name: "Digital-ist",
+  description: "List of our product",
   shareImage: "/p-list.png",
-  baseUri: "", // optional
+  baseUri: "https://product-list-seven.vercel.app/", // optional
   github: "https://github.com/bilalturkmen", // optional
 };
 
