@@ -6,7 +6,9 @@ export default function UserDetails({ user }) {
   const router = useRouter();
   return (
     <>
-      <HeadComponent canonicalUrl={``} />
+      <HeadComponent
+        canonicalUrl={`https://product-list-seven.vercel.app/products/id`}
+      />
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className=" md:w-2/8 w-2/6 mb-10 md:mb-0">
