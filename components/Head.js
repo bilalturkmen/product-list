@@ -1,5 +1,5 @@
 import Head from "next/head";
-import meta from "../pages/meta";
+import meta from "../content/meta";
 
 export default function HeadComponent({
   title,
