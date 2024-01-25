@@ -11,7 +11,7 @@ export default function HeadComponent({
   return (
     <Head>
       <title>{meta.name}</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon.svg" />
       <link rel="canonical" href={canonicalUrl} />
       <meta charSet="utf-8"></meta>
       <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
