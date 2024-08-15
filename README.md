@@ -1,9 +1,10 @@
 # Product List
-This is a demo product list, built with Next js. Used Rest Api for fetching data and Tailwind CSS for page design.
+This is a demo product list, built with Next js. Used json for fetching product data and Tailwind CSS for page design.
 
 ## Demo
 https://product-list-seven.vercel.app/
 
-![img-0](https://user-images.githubusercontent.com/30315981/193420995-c71aa205-e991-469c-af9c-648656b2e743.jpg)
+![p-list](https://github.com/user-attachments/assets/ab628b92-96a7-4800-9198-8e89377a3c3e)
 
-**Technologies:** Next js, Rest Api, TailwindCSS
+
+**Technologies:** Next js, Fetching Json Data, TailwindCSS
