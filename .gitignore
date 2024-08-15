@@ -16,6 +16,7 @@
 /build
 
 # misc
+/.github/
 .DS_Store
 *.pem
 
