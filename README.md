@@ -4,6 +4,6 @@
 
 A demo product listing application built with Next.js. JSON is used fetching the product data, and Tailwind CSS is used for page design.
 
-![p-list](https://github.com/user-attachments/assets/ab628b92-96a7-4800-9198-8e89377a3c3e)
+![](/screenshott.png)
 
-**Technologies:** Next js, Json for Fetching Data, Tailwind CSS
+**Technologies:** Next.js, Json for Fetching Data, Tailwind CSS
