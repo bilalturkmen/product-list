@@ -1,12 +1,26 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
   images: {
-    domains: [
-      "images.unsplash.com",
-      "placehold.jp",
-      "dummyjson.com",
-      "cdn.dummyjson.com",
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        // Optional: specify port and pathname if needed
+        // port: '',
+        // pathname: '/account123/**',
+      },
+      {
+        protocol: "https",
+        hostname: "placehold.jp",
+      },
+      {
+        protocol: "https",
+        hostname: "dummyjson.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.dummyjson.com",
+      },
     ],
   },
 };

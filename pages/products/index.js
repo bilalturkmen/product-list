@@ -41,23 +41,19 @@ export default function UserListPage({ users }) {
               >
                 <div className="w-24 md:w-24 h-24 md:h-24 bg-gray-100 rounded-full overflow-hidden shadow-lg">
                   <Link href={`/products/${user.id}`}>
-                    <a>
-                      <Image
-                        alt="product"
-                        className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
-                        src={user.thumbnail}
-                        width={120}
-                        height={120}
-                      />
-                    </a>
+                    <Image
+                      alt="product"
+                      className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                      src={user.thumbnail}
+                      width={120}
+                      height={120}
+                    />
                   </Link>
                 </div>
 
                 <div>
                   <div className="text-indigo-500 md:text-lg font-bold text-center sm:text-left">
-                    <Link href={`/products/${user.id}`}>
-                      <a>{`${user.title}`}</a>
-                    </Link>
+                    <Link href={`/products/${user.id}`}>{`${user.title}`}</Link>
                   </div>
                   <p className="text-gray-500 text-sm md:text-base text-center sm:text-left">
                     {user.brand}

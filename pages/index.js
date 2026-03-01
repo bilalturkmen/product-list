@@ -31,23 +31,19 @@ export default function Home({ users }) {
                   <div className="p-2 lg:w-1/3 md:w-1/2 w-full" key={user.id}>
                     <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                       <Link href={`/products/${user.id}`}>
-                        <a>
-                          <Image
-                            alt="team"
-                            className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
-                            src={user.thumbnail}
-                            width={60}
-                            height={60}
-                          />
-                        </a>
+                        <Image
+                          alt="team"
+                          className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                          src={user.thumbnail}
+                          width={60}
+                          height={60}
+                        />
                       </Link>
                       <div className="flex-grow ml-4">
                         <Link href={`/products/${user.id}`}>
-                          <a>
-                            <h2 className="text-indigo-500 title-font font-bold ">
-                              {user.title}
-                            </h2>
-                          </a>
+                          <h2 className="text-indigo-500 title-font font-bold ">
+                            {user.title}
+                          </h2>
                         </Link>
                         <p className="text-gray-500">{user.brand} </p>
                       </div>
