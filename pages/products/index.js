@@ -39,11 +39,11 @@ export default function UserListPage({ users }) {
                 key={user.id}
                 className="flex flex-col sm:flex-row items-center gap-2 md:gap-4"
               >
-                <div className="w-24 md:w-24 h-24 md:h-24 bg-gray-100 rounded-full overflow-hidden shadow-lg">
+                <div className="w-24 h-24 bg-gray-100 rounded-full overflow-hidden shadow-lg">
                   <Link href={`/products/${user.id}`}>
                     <Image
                       alt="product"
-                      className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                      className="w-24 h-24 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
                       src={user.thumbnail}
                       width={120}
                       height={120}
