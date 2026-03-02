@@ -1,6 +1,6 @@
 # Product List
 
-**Demo:** https://product-list-seven.vercel.app/
+https://product-list-seven.vercel.app/
 
 A demo product listing application built with Next.js. Product data was retrieved using JSON and Tailwind CSS is used for page design.
 
