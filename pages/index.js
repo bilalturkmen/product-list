@@ -33,13 +33,13 @@ export default function Home({ users }) {
                       <Link href={`/products/${user.id}`}>
                         <Image
                           alt="team"
-                          className="w-16 h-16 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                          className="w-16 h-16 bg-slate-50 object-cover object-center shrink-0 rounded-full "
                           src={user.thumbnail}
                           width={60}
                           height={60}
                         />
                       </Link>
-                      <div className="flex-grow ml-4">
+                      <div className="grow ml-4">
                         <Link href={`/products/${user.id}`}>
                           <h2 className="text-indigo-500 title-font font-bold ">
                             {user.title}

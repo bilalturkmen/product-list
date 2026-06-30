@@ -21,13 +21,13 @@ export default function UserListPage({ users }) {
         canonicalUrl={`https://product-list-seven.vercel.app/products`}
       />
       <div className="py-6 sm:py-8 lg:py-12 ">
-        <div className="max-w-screen-xl px-4 md:px-8 mx-auto">
+        <div className="max-w-(--breakpoint-xl) px-4 md:px-8 mx-auto">
           <div className="mb-10 md:mb-16">
             <h2 className="text-gray-800 text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">
               Meet our Products
             </h2>
 
-            <p className="max-w-screen-md text-gray-500 md:text-lg text-center mx-auto">
+            <p className="max-w-(--breakpoint-md) text-gray-500 md:text-lg text-center mx-auto">
               This is an example products data from
               https://dummyjson.com/products.
             </p>
@@ -43,7 +43,7 @@ export default function UserListPage({ users }) {
                   <Link href={`/products/${user.id}`}>
                     <Image
                       alt="product"
-                      className="w-24 h-24 bg-slate-50 object-cover object-center flex-shrink-0 rounded-full "
+                      className="w-24 h-24 bg-slate-50 object-cover object-center shrink-0 rounded-full "
                       src={user.thumbnail}
                       width={120}
                       height={120}
