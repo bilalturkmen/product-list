@@ -19,7 +19,7 @@ export default function HeadComponent({
       <meta property="og:title" content={meta.name} />
       <meta property="og:image" content={image} />
       <meta property="og:site_name" content={meta.name} />
-      <meta property="og:description" content={description} />
+      <meta property="og:description" content={meta.description} />
       <meta property="og:url" content={meta.baseUri} />
       {children}
     </Head>
