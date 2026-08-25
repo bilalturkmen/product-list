@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <header className="text-gray-600 body-font border-b  bg-white  ">
-      <div className="container mx-auto   flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <header className="text-gray-600 body-font border-b bg-white">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link
           href={"/"}
-          className="flex items-center font-bold   text-gray-900 mb-4 md:mb-0"
+          className="flex items-center font-bold text-gray-900 mb-4 md:mb-0"
         >
           <Image
             src="/digital_ist.svg"
@@ -18,7 +18,7 @@ const NavBar = () => {
           <span className="ml-3 text-2xl">digital-ist</span>
         </Link>
         <span className="hidden md:block ml-6 italic">
-          {` </ digital istanbul />`}
+          {`</ digital istanbul />`}
         </span>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
           <Link href="/" className="mr-5 hover:text-gray-900">
