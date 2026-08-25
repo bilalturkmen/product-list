@@ -15,11 +15,12 @@ export default function Home({ users }) {
             </h1>
 
             <p className="max-w-md text-gray-500 xl:text-lg leading-relaxed pb-6">
-              This is a demo product list, built with Next js. Used Rest Api for
-              fetching data and Tailwind CSS for page design.
+              This is a demo product list built with Next js. It uses a Rest Api
+              for fetching data and Tailwind CSS for page design.
             </p>
             <p className="max-w-md text-gray-500 xl:text-lg leading-relaxed">
-              Thank you for your visit. You can reach me by the links below.
+              Thank you for visiting. Feel free to reach out via the links
+              below.
             </p>
             <SocialMedia></SocialMedia>
           </div>
