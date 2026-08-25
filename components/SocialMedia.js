@@ -1,8 +1,8 @@
 import Link from "next/link";
 export default function SocialMedia() {
   return (
-    <div className="flex flex-col md:flex-row justify-start content-center items-center gap-8 container mx-auto my-6 ">
-      <div className="flex justify-center lg:justify-start items-center gap-4">
+    <div className="my-6 flex flex-col items-start gap-6">
+      <div className="flex items-center gap-4">
         <span className="text-gray-400 text-sm sm:text-base font-semibold tracking-widest ">
           &copy; {new Date().getFullYear()} - Bilal Türkmen
         </span>
