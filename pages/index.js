@@ -14,8 +14,8 @@ export default function Home({ users }) {
               Product List
             </h1>
 
-            <p className="max-w-md text-gray-500 xl:text-lg leading-relaxed pb-6">
-              This is a demo product list built with Next js. It uses a Rest Api
+            <p className="max-w-md text-gray-500 xl:text-lg leading-relaxed mb-6">
+              This is a demo product list built with Next js. It uses a REST API
               for fetching data and Tailwind CSS for page design.
             </p>
             <p className="max-w-md text-gray-500 xl:text-lg leading-relaxed">
